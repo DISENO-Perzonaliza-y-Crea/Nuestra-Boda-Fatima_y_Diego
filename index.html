@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda - Fátima & Diego</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f9f8f6;
+            color: #2c2c2c;
+        }
+        .font-wedding {
+            font-family: 'Great Vibes', cursive;
+        }
+        .page-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding: 0;
+            margin: 0;
+            line-height: 0;
+        }
+    </style>
+</head>
+<body class="bg-[#fcfbf9] text-stone-800 antialiased selection:bg-amber-100 selection:text-amber-900">
+
+    <audio id="wedding-audio" preload="auto" loop>
+        <source src="https://raw.githubusercontent.com/lupitacontrerasruiz-lang/Nuestra-Boda-Fatima_y_Diego/main/Taylor%20Swift%20-%20Daylight%20(Piano%20Karaoke)%20-%20Sing2Piano%20%20Piano%20Karaoke%20Instrumentals%20(youtube).mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md shadow-sm border-b border-stone-200">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+            <span class="font-wedding text-2xl text-stone-700 tracking-wide">Fátima & Diego</span>
+            <nav class="hidden sm:flex space-x-6 text-xs uppercase tracking-widest font-medium text-stone-600">
+                <a href="#pagina-1" class="hover:text-amber-700 transition">1</a>
+                <a href="#pagina-2" class="hover:text-amber-700 transition">2</a>
+                <a href="#pagina-3" class="hover:text-amber-700 transition">3</a>
+                <a href="#pagina-4" class="hover:text-amber-700 transition">4</a>
+                <a href="#pagina-5" class="hover:text-amber-700 transition">5</a>
+                <a href="#pagina-6" class="hover:text-amber-700 transition">6</a>
+            </nav>
+            <div id="quick-audio-toggle" class="sm:hidden text-xs bg-[#b87d84] text-white px-3 py-1 rounded-full cursor-pointer flex items-center gap-1 shadow">
+                <span>🎵 Música</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-full max-w-md mx-auto pt-16 flex flex-col">
+
+        <section id="pagina-1" class="page-container w-full">
+            <div class="w-full relative">
+                <img src="https://raw.githubusercontent.com/lupitacontrerasruiz-lang/Nuestra-Boda-Fatima_y_Diego/main/1.png" 
+                     alt="Invitación Boda Página 1" 
+                     class="w-full h-auto block"
+                     onerror="this.src='https://placehold.co/600x800/f5f2eb/8c7a6b?text=Pagina+1+Boda'">
+            </div>
+        </section>
+
+        <section id="pagina-2" class="page-container w-full relative">
+            <div class="absolute top-[18%] left-0 right-0 z-20 flex flex-col items-center px-4">
+                <button id="play-music-btn" style="transform: scale(1.47); transform-origin: center;" class="w-16 h-16 rounded-full bg-[#b87d84] text-white flex items-center justify-center shadow-2xl hover:bg-[#a36b72] transition-all duration-300 border border-white/30 focus:outline-none">
+                    <span id="btn-icon" class="text-xl ml-0.5">▶</span>
+                </button>
+                <span class="mt-3 text-xs uppercase tracking-widest text-[#7a4f56] font-semibold drop-shadow-sm bg-white/80 px-3 py-1 rounded-full shadow-sm">Da click</span>
+            </div>
+            <div class="w-full relative">
+                <img src="https://raw.githubusercontent.com/lupitacontrerasruiz-lang/Nuestra-Boda-Fatima_y_Diego/main/2.png" 
+                     alt="Invitación Boda Página 2" 
+                     class="w-full h-auto block"
+                     onerror="this.src='https://placehold.co/600x800/f5f2eb/8c7a6b?text=Pagina+2+Boda'">
+            </div>
+        </section>
+
+        <section id="pagina-3" class="page-container w-full">
+            <div class="w-full relative">
+                <img src="https://raw.githubusercontent.com/lupitacontrerasruiz-lang/Nuestra-Boda-Fatima_y_Diego/main/3.png" 
+                     alt="Invitación Boda Página 3" 
+                     class="w-full h-auto block"
+                     onerror="this.src='https://placehold.co/600x800/f5f2eb/8c7a6b?text=Pagina+3+Boda'">
+            </div>
+        </section>
+
+        <section id="pagina-4" class="page-container w-full">
+            <div class="w-full relative">
+                <img src="https://raw.githubusercontent.com/lupitacontrerasruiz-lang/Nuestra-Boda-Fatima_y_Diego/main/4.png" 
+                     alt="Invitación Boda Página 4" 
+                     class="w-full h-auto block"
+                     onerror="this.src='https://placehold.co/600x800/f5f2eb/8c7a6b?text=Pagina+4+Boda'">
+            </div>
+        </section>
+
+        <section id="pagina-5" class="page-container w-full relative">
+            <div class="absolute top-[4%] left-0 right-0 z-20 flex justify-center px-4">
+                <a href="https://maps.app.goo.gl/Jp3E6KDEmkwwxstE8" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center justify-center gap-2 px-8 py-5 rounded-full bg-[#b8977a] backdrop-blur-md text-white font-semibold text-sm tracking-wider shadow-2xl hover:bg-[#a68468] transition-all duration-300 transform hover:-translate-y-0.5 border border-white/25">
+                    <span class="text-lg">📍</span>
+                    <span>(Ver Ubicación)</span>
+                </a>
+            </div>
+            <div class="w-full relative">
+                <img src="https://raw.githubusercontent.com/lupitacontrerasruiz-lang/Nuestra-Boda-Fatima_y_Diego/main/5.png" 
+                     alt="Invitación Boda Página 5" 
+                     class="w-full h-auto block"
+                     onerror="this.src='https://placehold.co/600x800/f5f2eb/8c7a6b?text=Pagina+5+Boda'">
+            </div>
+        </section>
+
+        <section id="pagina-6" class="page-container w-full relative">
+            <div class="absolute top-[2%] left-0 right-0 z-20 flex justify-center px-4">
+                <div class="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-3 w-full max-w-xs border border-stone-200 text-center">
+                    <p class="text-[10px] uppercase tracking-widest text-amber-800 font-bold mb-2">Faltan para el gran día</p>
+                    <div class="grid grid-cols-4 gap-1 text-center" id="countdown">
+                        <div class="bg-stone-50 p-2 rounded-lg border border-stone-200">
+                            <span id="days" class="block text-base font-bold text-stone-800">00</span>
+                            <span class="text-[9px] uppercase text-stone-500">Días</span>
+                        </div>
+                        <div class="bg-stone-50 p-2 rounded-lg border border-stone-200">
+                            <span id="hours" class="block text-base font-bold text-stone-800">00</span>
+                            <span class="text-[9px] uppercase text-stone-500">Horas</span>
+                        </div>
+                        <div class="bg-stone-50 p-2 rounded-lg border border-stone-200">
+                            <span id="minutes" class="block text-base font-bold text-stone-800">00</span>
+                            <span class="text-[9px] uppercase text-stone-500">Min</span>
+                        </div>
+                        <div class="bg-stone-50 p-2 rounded-lg border border-stone-200">
+                            <span id="seconds" class="block text-base font-bold text-stone-800">00</span>
+                            <span class="text-[9px] uppercase text-stone-500">Seg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full relative">
+                <img src="https://raw.githubusercontent.com/lupitacontrerasruiz-lang/Nuestra-Boda-Fatima_y_Diego/main/6.png" 
+                     alt="Invitación Boda Página 6" 
+                     class="w-full h-auto block"
+                     onerror="this.src='https://placehold.co/600x800/f5f2eb/8c7a6b?text=Pagina+6+Boda'">
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        const audio = document.getElementById('wedding-audio');
+        const playBtn = document.getElementById('play-music-btn');
+        const quickAudioToggle = document.getElementById('quick-audio-toggle');
+        const btnIcon = document.getElementById('btn-icon');
+        
+        let isPlaying = false;
+
+        function togglePlay() {
+            if (isPlaying) {
+                audio.pause();
+                btnIcon.textContent = '▶';
+                quickAudioToggle.innerHTML = '<span>🎵 Música</span>';
+                isPlaying = false;
+            } else {
+                audio.play().then(() => {
+                    btnIcon.textContent = '⏸';
+                    quickAudioToggle.innerHTML = '<span>⏸ Pausar</span>';
+                    isPlaying = true;
+                }).catch(err => {
+                    console.error("Error al reproducir audio:", err);
+                });
+            }
+        }
+
+        playBtn.addEventListener('click', togglePlay);
+        quickAudioToggle.addEventListener('click', togglePlay);
+
+        // Countdown Timer Logic (September 13, 2026 8:10 to November 14, 2026 16:00:00)
+        const targetDate = new Date('November 14, 2026 16:00:00').getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            const daysEl = document.getElementById('days');
+            const hoursEl = document.getElementById('hours');
+            const minutesEl = document.getElementById('minutes');
+            const secondsEl = document.getElementById('seconds');
+
+            if (distance < 0) {
+                daysEl.textContent = '00';
+                hoursEl.textContent = '00';
+                minutesEl.textContent = '00';
+                secondsEl.textContent = '00';
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            daysEl.textContent = String(days).padStart(2, '0');
+            hoursEl.textContent = String(hours).padStart(2, '0');
+            minutesEl.textContent = String(minutes).padStart(2, '0');
+            secondsEl.textContent = String(seconds).padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
